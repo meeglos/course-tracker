@@ -8,7 +8,7 @@
         <title>{{ $_ENV['APP_NAME'] }}</title>
 
         <!-- Bootstrap Core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         {{-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> --}}
@@ -76,6 +76,16 @@
         </div>
       </div>
     </section>
+    
+        <!-- Callout -->
+        <section class="callout">
+          <div class="container text-center">
+            <h2 class="mx-auto mb-5">Welcome to
+              <em>your</em>
+              next website!</h2>
+            <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+          </div>
+        </section>
 
     <!-- Services -->
     <section class="content-section bg-primary text-white text-center" id="services">
@@ -124,16 +134,6 @@
             <p class="text-faded mb-0">I mustache you a question...</p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Callout -->
-    <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-          <em>your</em>
-          next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
       </div>
     </section>
 
@@ -238,20 +238,21 @@
       </div>
     </footer>
 
-    <!-- Scroll to Top Button-->
+    <!-- Scroll to Top Button -->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
       <i class="fa fa-angle-up"></i>
     </a>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     
     {{-- All-in-one js --}}
     <script src="js/app.js"></script>
+
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
 
