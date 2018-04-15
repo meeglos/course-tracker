@@ -31,7 +31,7 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+          <a class="js-scroll-trigger" href="#page-top">Course Tracker</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">Home</a>
@@ -77,15 +77,15 @@
       </div>
     </section>
     
-        <!-- Callout -->
-        <section class="callout">
-          <div class="container text-center">
-            <h2 class="mx-auto mb-5">Welcome to
-              <em>your</em>
-              next website!</h2>
-            <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-          </div>
-        </section>
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Welcome to
+          <em>your</em>
+          next website!</h2>
+        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+      </div>
+    </section>
 
     <!-- Services -->
     <section class="content-section bg-primary text-white text-center" id="services">
